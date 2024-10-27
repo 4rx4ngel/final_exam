@@ -1,0 +1,23 @@
+ls
+cd Документы
+ls
+cat > Pets
+cat > 'Pack animals'
+cat Pets Pack\ animals > 'Human friends'
+cat Human\ friends
+mkdir 'New directory'
+ls
+mv Human\ friends New\ directory
+ls
+cd New\ directory
+ls
+sudo apt update
+sudo apt install MySQL
+sudo systemctl status MySQL
+mysql --version
+cd ..
+cd ..
+cd Загрузки
+ls
+sudo dpkg -i vivaldi-stable_7.0.3495.6-1_amd64.deb
+sudo dpkg -r vivaldi-stable
