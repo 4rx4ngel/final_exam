@@ -1,5 +1,12 @@
+import service.RegistryService;
+import view.View;
+
+
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        RegistryService registry = new RegistryService();
+        View consoleInterface = new View(registry);
+        consoleInterface.start();
     }
 }
